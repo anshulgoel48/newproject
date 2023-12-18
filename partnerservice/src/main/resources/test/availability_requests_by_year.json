@@ -1,0 +1,458 @@
+{
+    "employeeId": 1616515,
+    "year": 2023,
+    "entities": [
+        {
+            "id": 6464996,
+            "employeeId": 1616515,
+            "status": "Approved",
+            "employeeFirstName": "Julus",
+            "employeeMiddleName": "F",
+            "employeeLastName": "Crafts",
+            "comments": "Updating my preferred and general availability approved",
+            "requestedOn": "2023-10-26T00:00:00",
+            "lastStatusUpdateUserId": 100,
+            "lastStatusUpdateTimeStamp": "2023-10-26T16:13:04",
+            "lastStatusUpdateUserFirstName": "Kayo",
+            "lastStatusUpdateUserMiddleName": null,
+            "lastStatusUpdateUserLastName": "Daab",
+            "effectiveFrom": "2023-11-16T00:00:00",
+            "endsAfter": "2023-12-03T00:00:00",
+            "cycleBaseDate": null,
+            "numberOfWeeks": null,
+            "generalAvailability": [
+                {
+                    "id": 32465942,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "14:00:00",
+                    "dayOfWeek": "Sunday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465942"
+                },
+                {
+                    "id": 32465943,
+                    "startTimeOffset": "06:00:00",
+                    "endTimeOffset": "16:00:00",
+                    "dayOfWeek": "Monday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465943"
+                },
+                {
+                    "id": 32465944,
+                    "startTimeOffset": "06:00:00",
+                    "endTimeOffset": "18:00:00",
+                    "dayOfWeek": "Tuesday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465944"
+                },
+                {
+                    "id": 32465945,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "15:00:00",
+                    "dayOfWeek": "Wednesday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465945"
+                },
+                {
+                    "id": 32465946,
+                    "startTimeOffset": "09:00:00",
+                    "endTimeOffset": "16:00:00",
+                    "dayOfWeek": "Thursday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465946"
+                },
+                {
+                    "id": 32465947,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "20:00:00",
+                    "dayOfWeek": "Friday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465947"
+                },
+                {
+                    "id": 32465948,
+                    "startTimeOffset": "05:00:00",
+                    "endTimeOffset": "17:00:00",
+                    "dayOfWeek": "Saturday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465948"
+                }
+            ],
+            "preferredAvailability": [
+                {
+                    "id": 32465949,
+                    "startTimeOffset": "08:00:00",
+                    "endTimeOffset": "12:00:00",
+                    "dayOfWeek": "Sunday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465949"
+                },
+                {
+                    "id": 32465950,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "16:00:00",
+                    "dayOfWeek": "Monday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465950"
+                },
+                {
+                    "id": 32465951,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "17:00:00",
+                    "dayOfWeek": "Tuesday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465951"
+                },
+                {
+                    "id": 32465952,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "15:00:00",
+                    "dayOfWeek": "Wednesday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465952"
+                },
+                {
+                    "id": 32465953,
+                    "startTimeOffset": "10:00:00",
+                    "endTimeOffset": "14:00:00",
+                    "dayOfWeek": "Thursday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465953"
+                },
+                {
+                    "id": 32465954,
+                    "startTimeOffset": "08:00:00",
+                    "endTimeOffset": "12:00:00",
+                    "dayOfWeek": "Friday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465954"
+                },
+                {
+                    "id": 32465955,
+                    "startTimeOffset": "13:00:00",
+                    "endTimeOffset": "19:00:00",
+                    "dayOfWeek": "Friday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465955"
+                },
+                {
+                    "id": 32465956,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "16:00:00",
+                    "dayOfWeek": "Saturday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465956"
+                }
+            ],
+            "employee": {
+                "rel": "employee",
+                "method": "GET",
+                "uri": "/api/v1/employees/1616515"
+            },
+            "lastStatusUpdateUser": {
+                "rel": "user",
+                "method": "GET",
+                "uri": "/api/v1/users/100"
+            },
+            "self": "/api/v1/availabilityRequests/6464996"
+        },
+        {
+            "id": 6464997,
+            "employeeId": 1616515,
+            "status": "Denied",
+            "employeeFirstName": "Julus",
+            "employeeMiddleName": "F",
+            "employeeLastName": "Crafts",
+            "comments": "new preferred and general availability denied",
+            "requestedOn": "2023-10-26T00:00:00",
+            "lastStatusUpdateUserId": 1616515,
+            "lastStatusUpdateTimeStamp": "2023-10-26T17:13:31",
+            "lastStatusUpdateUserFirstName": "Cortney",
+            "lastStatusUpdateUserMiddleName": "D",
+            "lastStatusUpdateUserLastName": "Alsdorf",
+            "effectiveFrom": "2023-11-27T00:00:00",
+            "endsAfter": null,
+            "cycleBaseDate": null,
+            "numberOfWeeks": null,
+            "generalAvailability": [
+                {
+                    "id": 32465957,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "14:00:00",
+                    "dayOfWeek": "Sunday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465957"
+                },
+                {
+                    "id": 32465958,
+                    "startTimeOffset": "06:00:00",
+                    "endTimeOffset": "16:00:00",
+                    "dayOfWeek": "Monday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465958"
+                },
+                {
+                    "id": 32465959,
+                    "startTimeOffset": "06:00:00",
+                    "endTimeOffset": "18:00:00",
+                    "dayOfWeek": "Tuesday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465959"
+                },
+                {
+                    "id": 32465960,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "15:00:00",
+                    "dayOfWeek": "Wednesday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465960"
+                },
+                {
+                    "id": 32465961,
+                    "startTimeOffset": "09:00:00",
+                    "endTimeOffset": "16:00:00",
+                    "dayOfWeek": "Thursday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465961"
+                },
+                {
+                    "id": 32465962,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "20:00:00",
+                    "dayOfWeek": "Friday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465962"
+                },
+                {
+                    "id": 32465963,
+                    "startTimeOffset": "05:00:00",
+                    "endTimeOffset": "17:00:00",
+                    "dayOfWeek": "Saturday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465963"
+                }
+            ],
+            "preferredAvailability": [
+                {
+                    "id": 32465964,
+                    "startTimeOffset": "08:00:00",
+                    "endTimeOffset": "12:00:00",
+                    "dayOfWeek": "Sunday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465964"
+                },
+                {
+                    "id": 32465965,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "16:00:00",
+                    "dayOfWeek": "Monday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465965"
+                },
+                {
+                    "id": 32465966,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "17:00:00",
+                    "dayOfWeek": "Tuesday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465966"
+                },
+                {
+                    "id": 32465967,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "15:00:00",
+                    "dayOfWeek": "Wednesday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465967"
+                },
+                {
+                    "id": 32465968,
+                    "startTimeOffset": "10:00:00",
+                    "endTimeOffset": "14:00:00",
+                    "dayOfWeek": "Thursday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465968"
+                },
+                {
+                    "id": 32465969,
+                    "startTimeOffset": "08:00:00",
+                    "endTimeOffset": "16:00:00",
+                    "dayOfWeek": "Friday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465969"
+                },
+                {
+                    "id": 32465970,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "16:00:00",
+                    "dayOfWeek": "Saturday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465970"
+                }
+            ],
+            "employee": {
+                "rel": "employee",
+                "method": "GET",
+                "uri": "/api/v1/employees/1616515"
+            },
+            "lastStatusUpdateUser": {
+                "rel": "user",
+                "method": "GET",
+                "uri": "/api/v1/users/1616515"
+            },
+            "self": "/api/v1/availabilityRequests/6464997"
+        },
+        {
+            "id": 6464998,
+            "employeeId": 1616515,
+            "status": "Approved",
+            "employeeFirstName": "Julus",
+            "employeeMiddleName": "F",
+            "employeeLastName": "Crafts",
+            "comments": null,
+            "requestedOn": "2023-10-26T00:00:00",
+            "lastStatusUpdateUserId": 1616515,
+            "lastStatusUpdateTimeStamp": "2023-10-26T17:23:43",
+            "lastStatusUpdateUserFirstName": "Kayo",
+            "lastStatusUpdateUserMiddleName": null,
+            "lastStatusUpdateUserLastName": "Daab",
+            "effectiveFrom": "2023-12-04T00:00:00",
+            "endsAfter": null,
+            "cycleBaseDate": null,
+            "numberOfWeeks": null,
+            "generalAvailability": [
+                {
+                    "id": 32465971,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "14:00:00",
+                    "dayOfWeek": "Sunday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465971"
+                },
+                {
+                    "id": 32465972,
+                    "startTimeOffset": "06:00:00",
+                    "endTimeOffset": "16:00:00",
+                    "dayOfWeek": "Monday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465972"
+                },
+                {
+                    "id": 32465973,
+                    "startTimeOffset": "06:00:00",
+                    "endTimeOffset": "18:00:00",
+                    "dayOfWeek": "Tuesday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465973"
+                },
+                {
+                    "id": 32465974,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "15:00:00",
+                    "dayOfWeek": "Wednesday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465974"
+                },
+                {
+                    "id": 32465975,
+                    "startTimeOffset": "09:00:00",
+                    "endTimeOffset": "16:00:00",
+                    "dayOfWeek": "Thursday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465975"
+                },
+                {
+                    "id": 32465976,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "20:00:00",
+                    "dayOfWeek": "Friday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465976"
+                },
+                {
+                    "id": 32465977,
+                    "startTimeOffset": "05:00:00",
+                    "endTimeOffset": "17:00:00",
+                    "dayOfWeek": "Saturday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465977"
+                }
+            ],
+            "preferredAvailability": [
+                {
+                    "id": 32465978,
+                    "startTimeOffset": "08:00:00",
+                    "endTimeOffset": "12:00:00",
+                    "dayOfWeek": "Sunday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465978"
+                },
+                {
+                    "id": 32465979,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "16:00:00",
+                    "dayOfWeek": "Monday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465979"
+                },
+                {
+                    "id": 32465980,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "17:00:00",
+                    "dayOfWeek": "Tuesday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465980"
+                },
+                {
+                    "id": 32465981,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "15:00:00",
+                    "dayOfWeek": "Wednesday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465981"
+                },
+                {
+                    "id": 32465982,
+                    "startTimeOffset": "10:00:00",
+                    "endTimeOffset": "14:00:00",
+                    "dayOfWeek": "Thursday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465982"
+                },
+                {
+                    "id": 32465983,
+                    "startTimeOffset": "08:00:00",
+                    "endTimeOffset": "16:00:00",
+                    "dayOfWeek": "Friday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465983"
+                },
+                {
+                    "id": 32465984,
+                    "startTimeOffset": "07:00:00",
+                    "endTimeOffset": "16:00:00",
+                    "dayOfWeek": "Saturday",
+                    "weekNumber": 1,
+                    "self": "/api/v1/availabilityRequests/32465984"
+                }
+            ],
+            "employee": {
+                "rel": "employee",
+                "method": "GET",
+                "uri": "/api/v1/employees/1616515"
+            },
+            "lastStatusUpdateUser": {
+                "rel": "user",
+                "method": "GET",
+                "uri": "/api/v1/users/1616515"
+            },
+            "self": "/api/v1/availabilityRequests/6464998"
+        }
+    ],
+    "employee": {
+        "rel": "employee",
+        "method": "GET",
+        "uri": "/api/v1/employees/1616515"
+    },
+    "self": "/api/v1/availabilityRequests/employee/1616515/year/2023"
+}
